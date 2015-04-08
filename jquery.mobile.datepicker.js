@@ -92,7 +92,7 @@ $.widget("mobile.date",{
 			calendar = this.element.datepicker( "widget" );
 		}
 
-		this.baseWidget = ( !this.options.inline )? this.element: this.calendar;
+		this.baseWidget = ( !this.options.inline )? this.element: calendar;
 
 		if ( this.options.inline ) {
 			this._on({
